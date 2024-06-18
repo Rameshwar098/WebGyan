@@ -1,0 +1,186 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <title>webgyan-home-page</title>
+
+    <style>
+        body {
+            background-image: url('');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .my-nav {
+            width: 100%;
+            height: 60px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .my-ul {
+            margin: auto;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 5em;
+            justify-content: space-around;
+        }
+
+        .my-a {
+            color: black;
+            margin: auto;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            padding: 10px 20px;
+            border-radius: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        .my-a:hover {
+            color: black;
+            border-bottom-style: solid;
+            border-bottom-color: black;
+            border-bottom-width: 2px;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .botton {
+            color: white;
+            font-size: 20px;
+            background-color: red;
+            padding: 15px 35px 15px 35px;
+            text-decoration: none;
+        }
+
+        .botton:hover {
+            color: red;
+            text-decoration: none;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-thickness: 2px;
+            text-decoration-color: red;
+            background-color: white;
+            border: 2px red solid;
+        }
+
+        div {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        hr {
+            width: 60%;
+        }
+
+        .pages {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .logo {
+            width: 40%;
+        }
+
+        .padd {
+            padding: 10px;
+
+        }
+
+        .padd:hover {
+            border: 2px balck solid;
+            border-radius: 15px;
+        }
+
+        .my-center {
+            padding: 0;
+            max-width: 50%;
+            text-align: center;
+            margin: 15px auto 20px auto;
+        }
+        .logo-img {
+            margin-top: 0;
+            margin-bottom: 50px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-img">
+            <img src="images/logo3.png" class="logo">
+        </div>
+
+        <div>
+            <div class="my-center">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"
+                            aria-hidden="true"></span></span>
+                    <input type="text" placeholder="Search" class="form-control" id="inputGroupSuccess4"
+                        aria-describedby="inputGroupSuccess4Status">
+                </div>
+            </div>
+
+            <nav class="my-nav ">
+                <ul class="my-ul">
+                    <li class="my-li"><a href="home.html" class="my-a"><span>home</span></a></li>
+                    <li class="my-li"><a href="about.html" class="my-a"><span>about</span></a></li>
+                    <li class="my-li"><a href="contacts.html" class="my-a"><span>contacts</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Responsive Web Page Designing </h1>
+        <br>
+        <p>Responsive web page designing is about creating </br> web pages that look good on all devices a responsive
+            web page design </br> will automatically adjust for differet screen size and viewport.</p>
+        <div><a href="page1.html" class="botton">Explore</a></div>
+        <hr>
+        <h1>Let's Start</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4 padd">
+                <a href="html-intro.html"><img src="images/html-img.jpeg" alt="html-img-link" class="pages"></a>
+            </div>
+            <div class="col-md-4 padd">
+                <a href="css-intro.html"><img src="images/css-img.jpeg" alt="css-img-link" class="pages"></a>
+            </div>
+            <div class="col-md-4 padd">
+                <a href="js-intro.html"><img src="images/js-img.jpeg" alt="js-img-link" class="pages"></a>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <h3>@Copyrights</h3>
+        </div>
+    </div>
+</body>
+</html>
